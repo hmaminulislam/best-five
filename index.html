@@ -39,38 +39,34 @@
                         <img class="w-full" src="images/player-1.png" alt="">
                         <h3 class="text-2xl font-bold pt-4">Lionel Messi</h3>
                         <ul class="my-3">
-                            <li class="inline">36 Goals</li>
+                            <li class="inline mr-4">36 Goals</li>
                             <li class="inline">120 Assist</li>
                         </ul>
-                        <button class="bg-green-600 py-2 px-4 w-5/6 font-semibold text-white">SELECT</button>
+                        <button class="bg-green-600 py-2 px-4 w-5/6 font-semibold text-white" onclick="playerAdd(this)">SELECT</button>
                     </div>
                     <div class="text-center bg-black text-white pb-8 border border-slate-600">
                         <img class="w-full" src="images/player-2.png" alt="">
                         <h3 class="text-2xl font-bold pt-4">Neymar Jr</h3>
                         <ul class="my-3">
-                            <li class="inline">24 Goals</li>
+                            <li class="inline mr-4">24 Goals</li>
                             <li class="inline">100 Assist</li>
                         </ul>
-                        <button class="bg-green-600 py-2 px-4 w-5/6 font-semibold text-white">SELECT</button>
+                        <button class="bg-green-600 py-2 px-4 w-5/6 font-semibold text-white" onclick="playerAdd(this)">SELECT</button>
                     </div>
                     <div class="text-center bg-black text-white pb-8 border border-slate-600">
                         <img class="w-full" src="images/player-3.png" alt="">
                         <h3 class="text-2xl font-bold pt-4">Kylian Mbappé</h3>
                         <ul class="my-3">
-                            <li class="inline">28 Goals</li>
+                            <li class="inline mr-4">28 Goals</li>
                             <li class="inline">110 Assist</li>
                         </ul>
-                        <button class="bg-green-600 py-2 px-4 w-5/6 font-semibold text-white">SELECT</button>
+                        <button class="bg-green-600 py-2 px-4 w-5/6 font-semibold text-white" onclick="playerAdd(this)">SELECT</button>
                     </div>
                     <div class="bg-black text-white py-4">
                         <h3 class="text-2xl text-center">Selected - V</h3>
                         <img class="w-7/12 mx-auto" src="images/Ureg-Ureg Marker.png" alt="">
-                        <ol class="player-list ml-10 mt-3">
-                            <li class="mb-5">Lorem ipsum dolor</li>
-                            <li class="mb-5">Lorem ipsum dolor</li>
-                            <li class="mb-5">Lorem ipsum dolor</li>
-                            <li class="mb-5">Lorem ipsum dolor</li>
-                            <li class="mb-5">Lorem ipsum dolor</li>
+                        <ol id="add-player-list" class="player-list ml-10 mt-3">
+
                         </ol>
                     </div>
                 </div>
@@ -79,57 +75,57 @@
                     <div class="grid grid-cols-3 gap-4 col-span-3">
                         <div class="text-center bg-black text-white pb-8 border border-slate-600">
                             <img class="w-full" src="images/player-4.png" alt="">
-                            <h3 class="text-2xl font-bold pt-4">Lionel Messi</h3>
+                            <h3 class="text-2xl font-bold pt-4">Vítor Machado</h3>
                             <ul class="my-3">
-                                <li class="inline">36 Goals</li>
-                                <li class="inline">120 Assist</li>
+                                <li class="inline mr-4">20 Goals</li>
+                                <li class="inline">80 Assist</li>
                             </ul>
-                            <button class="bg-green-600 py-2 px-4 w-5/6 font-semibold text-white">SELECT</button>
+                            <button class="bg-green-600 py-2 px-4 w-5/6 font-semibold text-white" onclick="playerAdd(this)">SELECT</button>
                         </div>
                         <div class="text-center bg-black text-white pb-8 border border-slate-600">
                             <img class="w-full" src="images/player-5.png" alt="">
-                            <h3 class="text-2xl font-bold pt-4">Neymar Jr</h3>
+                            <h3 class="text-2xl font-bold pt-4">Sergio Ramos</h3>
                             <ul class="my-3">
-                                <li class="inline">24 Goals</li>
+                                <li class="inline mr-4">14 Goals</li>
+                                <li class="inline">104 Assist</li>
+                            </ul>
+                            <button class="bg-green-600 py-2 px-4 w-5/6 font-semibold text-white" onclick="playerAdd(this)">SELECT</button>
+                        </div>
+                        <div class="text-center bg-black text-white pb-8 border border-slate-600">
+                            <img class="w-full" src="images/player-6.png" alt="">
+                            <h3 class="text-2xl font-bold pt-4">Renato Sanches</h3>
+                            <ul class="my-3">
+                                <li class="inline mr-4">18 Goals</li>
+                                <li class="inline">105 Assist</li>
+                            </ul>
+                            <button class="bg-green-600 py-2 px-4 w-5/6 font-semibold text-white" onclick="playerAdd(this)">SELECT</button>
+                        </div>
+                        <div class="text-center bg-black text-white pb-8 border border-slate-600">
+                            <img class="w-full" src="images/player-7.png" alt="">
+                            <h3 class="text-2xl font-bold pt-4">Mesut Özil</h3>
+                            <ul class="my-3">
+                                <li class="inline mr-4">24 Goals</li>
                                 <li class="inline">100 Assist</li>
                             </ul>
-                            <button class="bg-green-600 py-2 px-4 w-5/6 font-semibold text-white">SELECT</button>
+                            <button class="bg-green-600 py-2 px-4 w-5/6 font-semibold text-white" onclick="playerAdd(this)">SELECT</button>
                         </div>
                         <div class="text-center bg-black text-white pb-8 border border-slate-600">
-                            <img class="w-full" src="images/player-6.png" alt="">
-                            <h3 class="text-2xl font-bold pt-4">Kylian Mbappé</h3>
+                            <img class="w-full" src="images/player-8.png" alt="">
+                            <h3 class="text-2xl font-bold pt-4">Paul Pogba</h3>
                             <ul class="my-3">
-                                <li class="inline">28 Goals</li>
-                                <li class="inline">110 Assist</li>
+                                <li class="inline mr-4">22 Goals</li>
+                                <li class="inline">102 Assist</li>
                             </ul>
-                            <button class="bg-green-600 py-2 px-4 w-5/6 font-semibold text-white">SELECT</button>
+                            <button class="bg-green-600 py-2 px-4 w-5/6 font-semibold text-white" onclick="playerAdd(this)">SELECT</button>
                         </div>
                         <div class="text-center bg-black text-white pb-8 border border-slate-600">
-                            <img class="w-full" src="images/player-6.png" alt="">
-                            <h3 class="text-2xl font-bold pt-4">Kylian Mbappé</h3>
+                            <img class="w-full" src="images/player-9.png" alt="">
+                            <h3 class="text-2xl font-bold pt-4">Mohamed Salah</h3>
                             <ul class="my-3">
-                                <li class="inline">28 Goals</li>
-                                <li class="inline">110 Assist</li>
+                                <li class="inline mr-4">26 Goals</li>
+                                <li class="inline">103 Assist</li>
                             </ul>
-                            <button class="bg-green-600 py-2 px-4 w-5/6 font-semibold text-white">SELECT</button>
-                        </div>
-                        <div class="text-center bg-black text-white pb-8 border border-slate-600">
-                            <img class="w-full" src="images/player-6.png" alt="">
-                            <h3 class="text-2xl font-bold pt-4">Kylian Mbappé</h3>
-                            <ul class="my-3">
-                                <li class="inline">28 Goals</li>
-                                <li class="inline">110 Assist</li>
-                            </ul>
-                            <button class="bg-green-600 py-2 px-4 w-5/6 font-semibold text-white">SELECT</button>
-                        </div>
-                        <div class="text-center bg-black text-white pb-8 border border-slate-600">
-                            <img class="w-full" src="images/player-6.png" alt="">
-                            <h3 class="text-2xl font-bold pt-4">Kylian Mbappé</h3>
-                            <ul class="my-3">
-                                <li class="inline">28 Goals</li>
-                                <li class="inline">110 Assist</li>
-                            </ul>
-                            <button class="bg-green-600 py-2 px-4 w-5/6 font-semibold text-white">SELECT</button>
+                            <button class="bg-green-600 py-2 px-4 w-5/6 font-semibold text-white" onclick="playerAdd(this)">SELECT</button>
                         </div>
                     </div>
                     <div class="bg-black text-white py-4 h-3/5">
@@ -167,5 +163,6 @@
     <footer class="bg-neutral-900 py-10 text-center text-white border-t">
         <span>Copyright @ 2022 All Rights Reserved.</span>
     </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>
