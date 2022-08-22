@@ -3,3 +3,30 @@
 h1 {
         font-family: 'Berkshire Swash', cursive;
 }
+/* Header css */
+#header-left {
+    background-image: url("images/path56.png");
+    background-repeat: no-repeat;
+}
+#header-middle {
+    position: relative;
+}
+.heading-line {
+    position: absolute;
+    right: 0;
+}
+#header-right {
+    background-image: url("images/Rectangle\ 57.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    position: relative;
+}
+.header-card {
+    position: absolute;
+    left: 30px;
+}
+.header-football {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
