@@ -21,7 +21,7 @@ function playerAdd(element) {
   const playerName = element.parentNode.children[1].innerText;
   playerArray.push(playerName);
   display(playerArray);
-  if(playerArray.length> 5) {
+  if(playerArray.length > 5) {
     return
   }
   else {
@@ -61,7 +61,7 @@ document.getElementById("calculate-total-btn").addEventListener("click", functio
   const playerQuantity = document.getElementById("add-player-list").children.length;
   const totalPlayerCost = perPlayerCost * playerQuantity;
   const totalCost = totalPlayerCost + managerCost + coachCost
-  
+  // Manager field & Coach field validation
   if(isNaN(managerCost) || managerCost <= 0 || isNaN(coachCost) || coachCost <= 0) {
     alert("Not valid number")
     return

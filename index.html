@@ -12,20 +12,14 @@
 </head>
 <body>
     <!-- Header Start -->
-    <header class="bg-black pt-40">
-        <div class="flex">
-            <div class="basis-1/4" id="header-left">
-                <img src="images/Mask Group.png" alt="">
-            </div>
-            <div class="basis-1/2 text-center" id="header-middle">
-                <h1 class="text-6xl text-orange-600">Hire five football players</h1>
-                <img class="heading-line" src="images/Line Marker.png" alt="">
-                <p class="text-white text-lg my-14">FIFA is working on a wide range of topics from improving the women's game and developing football around the world to ensuring better football governance structures.</p>
-                <a class="bg-green-600 py-3 px-10 rounded-lg font-semibold text-white" href="#player-section">HIRE NOW</a>
-            </div>
-            <div class="basis-1/4" id="header-right">
-                <img class="header-card" src="images/Card-psg.png" alt="">
-                <img class="header-football" src="images/soccer-goal-top-png-8 4.png" alt="">
+    <header class="header-container">
+        <div class="overley">
+            <div class="flex justify-center items-center h-full">
+                <div class="text-center w-10/12 mx-auto">
+                    <h1 class="text-7xl text-orange-600">Hire five football players</h1>
+                    <p class="text-white text-lg my-6 lg:w-6/12 md:w-8/12 mx-auto">FIFA is working on a wide range of topics from improving the women's game and developing football around the world to ensuring better football governance structures.</p>
+                    <a class="bg-green-600 py-3 px-10 rounded-lg font-semibold text-white" href="#player-section">HIRE NOW</a>
+                </div>
             </div>
         </div>
     </header>
@@ -72,8 +66,8 @@
                     </div>
                 </div>
                 <!-- Player row-2 -->
-                <div class="grid grid-cols-4 gap-4 w-10/12 mx-auto my-5">
-                    <div class="grid grid-cols-3 gap-4 col-span-3">
+                <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 gap-4 w-10/12 mx-auto my-5">
+                    <div class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 gap-4 col-span-3">
                         <div class="text-center bg-black text-white pb-8 border border-slate-600">
                             <img class="w-full" src="images/player-4.png" alt="">
                             <h3 class="text-2xl font-bold pt-4">Vítor Machado</h3>
@@ -129,7 +123,7 @@
                             <button class="bg-green-600 py-2 px-4 w-5/6 font-semibold text-white" onclick="playerAdd(this)">SELECT</button>
                         </div>
                     </div>
-                    <div class="bg-black text-white py-4 h-3/5">
+                    <div class="bg-black text-white py-4 lg:h-4/6 md:h-full sm:colspan-2">
                         <h3 class="text-2xl text-center">Budget</h3>
                         <img class="w-7/12 mx-auto" src="images/Ureg-Ureg Marker.png" alt="">
                         <div class="flex items-center w-5/6 mx-auto mt-5">
