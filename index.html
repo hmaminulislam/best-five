@@ -20,7 +20,8 @@
             <div class="basis-1/2 text-center" id="header-middle">
                 <h1 class="text-6xl text-orange-600">Hire five football players</h1>
                 <img class="heading-line" src="images/Line Marker.png" alt="">
-                <p class="text-white text-lg mt-14">FIFA is working on a wide range of topics from improving the women's game and developing football around the world to ensuring better football governance structures.</p>
+                <p class="text-white text-lg my-14">FIFA is working on a wide range of topics from improving the women's game and developing football around the world to ensuring better football governance structures.</p>
+                <a class="bg-green-600 py-3 px-10 rounded-lg font-semibold text-white" href="#player-section">HIRE NOW</a>
             </div>
             <div class="basis-1/4" id="header-right">
                 <img class="header-card" src="images/Card-psg.png" alt="">
@@ -31,10 +32,10 @@
     <!-- Header End -->
     <main>
         <!-- Card Section Start -->
-        <section class="py-20 bg-neutral-900">
+        <section class="py-20 bg-neutral-900" id="player-section">
             <!-- Player row-1 -->
             <div>
-                <div class="grid grid-cols-4 gap-4 w-10/12 mx-auto">
+                <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 gap-4 w-10/12 mx-auto">
                     <div class="text-center bg-black text-white pb-8 border border-slate-600">
                         <img class="w-full" src="images/player-1.png" alt="">
                         <h3 class="text-2xl font-bold pt-4">Lionel Messi</h3>
@@ -133,25 +134,25 @@
                         <img class="w-7/12 mx-auto" src="images/Ureg-Ureg Marker.png" alt="">
                         <div class="flex items-center w-5/6 mx-auto mt-5">
                             <span class="w-2/4">Per Player</span>
-                            <input class="w-2/4 py-1 px-2 bg-black border border-slate-300 outline-none" type="text" placeholder="0000">
+                            <input id="per-player-field" class="w-2/4 py-1 px-2 bg-black border border-slate-300 outline-none" type="text" placeholder="0000">
                         </div>
                         <div class="w-10/12 mx-auto my-5">
-                            <button class="bg-green-600 py-2 px-4 w-full font-semibold text-white">Calculate</button>
+                            <button id="calculate-btn" class="bg-green-600 py-2 px-4 w-full font-semibold text-white">Calculate</button>
                         </div>
                         <div>
-                            <h4 class="w-10/12 mx-auto">Player Expenses: $<span>0000</span> </h4>
+                            <h4 class="w-10/12 mx-auto">Player Expenses: $<span id="player-expenses">0000</span> </h4>
                         </div>
                         <div class="flex items-center w-5/6 mx-auto mt-5">
                             <span class="w-2/4">Manager</span>
-                            <input class="w-2/4 py-1 px-2 bg-black border border-slate-300 outline-none" type="text" placeholder="0000">
+                            <input id="manager-field" class="w-2/4 py-1 px-2 bg-black border border-slate-300 outline-none" type="text" placeholder="0000">
                         </div>
                         <div class="flex items-center w-5/6 mx-auto mt-5">
                             <span class="w-2/4">Coach</span>
-                            <input class="w-2/4 py-1 px-2 bg-black border border-slate-300 outline-none" type="text" placeholder="0000">
+                            <input id="coach-field" class="w-2/4 py-1 px-2 bg-black border border-slate-300 outline-none" type="text" placeholder="0000">
                         </div>
                         <div class="w-10/12 mx-auto my-5">
-                            <button class="bg-green-600 py-2 px-4 w-full font-semibold text-white">Calculate Total</button>
-                            <h4 class="mt-4 text-1xl font-semibold">Total: $<span>0000</span></h4>
+                            <button id="calculate-total-btn" class="bg-green-600 py-2 px-4 w-full font-semibold text-white">Calculate Total</button>
+                            <h4 class="mt-4 text-1xl font-semibold">Total: $<span id="total">0000</span></h4>
                         </div>
                     </div>
                 </div>
